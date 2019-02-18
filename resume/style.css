@@ -1,0 +1,58 @@
+/* styles for my resume */
+
+/* general text */
+
+body {
+  font-family: 'Open Sans', ariel, sans-serif;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+}
+
+/* banner name up top */
+
+h1 {
+  font-size: 3em;
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* sections with colors */
+
+h2 {
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #33485e;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* position titles */
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* the place from where I got experience */
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+
+/* when I was at a place */
+
+h5 {
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* listed */
+
+ul {
+  font-size: 1em;
+}
