@@ -1,7 +1,6 @@
 /* styles for my resume */
 
 /* general text */
-
 body {
   font-family: 'Open Sans', ariel, sans-serif;
   font-size: 1em;
@@ -9,50 +8,100 @@ body {
   font-weight: 400;
 }
 
-/* banner name up top */
+.menu{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
 
-h1 {
+ul.menu li {
+  display: inline;
+}
+
+#title{
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  text-transform: uppercase;
+}
+/* banner name up top */
+#container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+#name {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+  border-bottom: solid 1px #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0px auto;
+
+
 }
 
 /* sections with colors */
 
-h2 {
+#sectionheader {
   font-size: 1.5em;
   color: #fff;
   background-color: #33485e;
   text-transform: uppercase;
   font-weight: 400;
+  margin: 20px 0px 10px;
+  margin-bottom: 10px;
+  width: 70%;
+  min-width: 300px;
 }
 
 /* position titles */
 
-h3 {
+#jobtitle {
   font-size: 1.5em;
   font-weight: 600;
 }
 
 /* the place from where I got experience */
 
-h4 {
-  font-size: 1.5em;
+#organization {
+  font-size: 1.25em;
   font-weight: 400;
 }
 
 
 /* when I was at a place */
 
-h5 {
+#date {
   font-size: 1em;
   font-weight: 400;
   font-style: italic;
+  margin: 2px 0px 0px 0px;
 }
 
+.description {
+  margin: 10px 0px 0px 0px;
+}
+
+#degrees{
+  margin: 5px 0px 0px 0px;
+}
+
+#do {
+  margin: 5px 0px 0px 0px;
+}
 /* listed */
 
 ul {
   font-size: 1em;
+}
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
 }
