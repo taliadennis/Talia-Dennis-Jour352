@@ -1,0 +1,67 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+#text {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#caption {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+  font-family: Helvetica, sans-serif;
+}
+
+a:link {
+  color: red;
+  background-color: transparent;
+}
+
+a:visited {
+  color: #ffadbc;
+  background-color: transparent;
+}
+
+a:hover {
+  color: white;
+  background-color: #f02a2a;
+  text-decoration: none;
+}
+
+blockquote {
+  font-size: 28px;
+  font-family: Georgia, serif;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: 30px;
+  width: 30%;
+  background-color: #eee6e6;
+  padding: 25px;
+  float: left;
+}
