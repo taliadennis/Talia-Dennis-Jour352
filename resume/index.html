@@ -20,8 +20,9 @@
     <!-- I built this myself-->
 
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-nav" href="#"</a>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top sticky">
+      <div class="container text-center">
+    <a class="navbar-nav" href="#nameplateanchor"</a>
           <img src="images/logo.png" width="90" height="90" alt="icon">
         </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,40 +32,30 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
      <ul class="navbar-nav mr-auto">
        <li class="nav-item active">
-         <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+         <a class="nav-link" href="aboutanchor">About <span class="sr-only">(current)</span></a>
        </li>
+       <li class="nav-item active">
+         <a class="nav-link" href="#skillsanchor">Skills</a>
        <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Experience</a>
+         <a class="nav-link dropdown-toggle active" href="#experienceanchor" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Experience</a>
        </li>
        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
          <a class="dropdown-item" href="#">Journalism</a>
          <a class="dropdown-item" href="#">Other</a>
        </div>
-       <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Dropdown
-         </a>
-         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="#">Action</a>
-           <a class="dropdown-item" href="#">Another action</a>
-           <div class="dropdown-divider"></div>
-           <a class="dropdown-item" href="#">Something else here</a>
-         </div>
-       </li>
+
+         <li class="nav-item active">
+           <a class="nav-link" href="#">Education</a>
        <li class="nav-item active">
          <a class="nav-link" href="#">Contact</a>
        </li>
      </ul>
-     <form class="form-inline my-2 my-lg-0">
-       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-       <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
-     </form>
     </div>
     </nav>
     <!-- End of Navbar -->
 
     <!-- Start of Jumbotron -->
-    <div class="jumbotron" style="background-image: url(images/jumbotron.png); background-size: 100%;">
+    <div class="jumbotron" style="background-image: url(images/jumbotron.png); background-size: 100%; background-repeat: no-repeat;" id="nameplateanchor">
       <div class="container text-center">
     <h1 class="display-4">  TALIA Y. DENNIS  </h1>
     <p class="lead"> ⏤ Student & Copy Editor ⏤</p>
@@ -81,19 +72,63 @@
     <div class="container">
           <div class="row">
 
+<!-- About-->
+
                   <div class="col-md-6">
 
                           <img src="TaliaDennis_headshot.jpeg" alt="profile photo of Talia" width=300px>
                   </div>
-
-
                   <div class="col-md-6">
-                          <h3> About Me </h3>
+                        <h3 id="aboutanchor"> About </h3>
                           <p>I am a student working toward degrees in multiplatform journalism and social and cultural history. I have written published articles, which include features, news stories, events, reviews and opinions. Currently, I am focusing on copy editing where I am able to employ my research skills. My journalism experience extends to working at various student publications.</p>
+                  </div>
+            </div>
+    </div>
+    <br>
+    <br>
+    <hr class="linebreak">
+<!-- Skills -->
+<div class="container">
+      <div class="row">
+
+                  <div class="col-md-12">
+                    <h3 id="skillsanchor">Skills</h3>
+                  </div>
+<br>
+<br>
+                  <div class="col-md-4">
+                    <h5> Organization </h5>
+                    <p> Competent to handle multiple tasks simultaneously and successfully </p>
+                  </div>
+
+                  <div class="col-md-4">
+                    <h5>Research</h5>
+                    <p> Adept at gathering information through a variety of vetted sources
+                  </div>
+
+                  <div class="col-md-4">
+                    <h5> Collaboration </h5>
+                    <p> Ability to work with others when coordinating events or brainstorming ideas </p>
                   </div>
 
 
+                  <div class="col-md-4">
+                    <h5>Communication</h5>
+                    <p>Experience in presenting information to groups and working in customer service jobs </p>
+                  </div>
 
+                  <div class="col-md-4">
+                      <h5> Adaptability</h5>
+                      <p> Adjust quickly to new environments <p>
+                  </div>
+
+
+                  <div class="col-md-4">
+                    <h5> Programs </h5>
+                    <p>Proficient in Adobe Photoshop, Premiere and Audition, and Microsoft Word, PowerPoint and Excel</p>
+                  </div>
+
+                </div>
           </div>
     </div>
     <div id="container">
@@ -112,7 +147,7 @@
 <!-- why doesn't this list thing work??? -->
 <!-- oh never mind, thank goodness I finally found it -->
 
-      <div id="sectionheader"> Experience: </div>
+      <div class="sectionheader" id="experienceanchor"> Experience: </div>
 
         <div id="jobtitle"> Copy Editor </div>
           <div id="organization"> The Diamondback </div>
@@ -158,27 +193,14 @@
             <p class="description">I am a seasonal employee at a local restaurant in my town. I began working as a busser when I was 16 and was promoted to a server when I was 17. It was strengthened my abilities to multitask, work quickly and efficiently, problem-solve and provide instructions and information with clarity. I strive for accuracy to ensure my customers get exactly what they order.</p>
 
 
-      <div id="sectionheader"> Education: </div>
+      <div class="sectionheader" id="educationanchor"> Education: </div>
 
         <ul id="degrees">
           <li>Bachelor of Arts, Journalism and History, University of Maryland, College Park, May  2020</li>
           <li>Study abroad student, University of Brighton, England, September to December 2018</li>
         </ul>
 
-      <div id="sectionheader"> Skills: </div>
-
-        <ul id="do">
-            <li><strong>Organization:</strong> Competent to handle multiple tasks simultaneously and successfully </li>
-
-            <li><strong>Research:</strong> Adept at gathering information through a variety of vetted sources </li>
-
-            <li><strong>Collaboration:</strong> Ability to work with others when coordinating events or brainstorming ideas </li>
-
-            <li><strong>Communication:</strong> Experience in presenting information to groups and working in customer service jobs </li>
-
-            <li><strong>Programs:</strong> Proficient in Adobe Photoshop, Premiere and Audition, and Microsoft Word, PowerPoint and Excel</li>
-
-        </ul>
+    
 
   </body>
 <!-- remember to submit this... -->
