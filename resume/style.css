@@ -16,7 +16,15 @@ body {
 
 ul.menu li {
   display: inline;
+  font-size: 0.75em;
+  color: black;
 }
+
+/* only one link changes...why???
+a:link {
+  color: black;
+  text-decoration: none;
+} */
 
 #title{
   font-weight: 600;
@@ -119,8 +127,12 @@ ul {
 
 /* jumbotron */
 .jumbotron{
+  background: url(images/jumbotron.png);
+  background-size: 100%;
   background-repeat: no-repeat;
   opacity: .90;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .display-4 {
@@ -172,4 +184,23 @@ p {
   position: fixed;
   top: 0px;
   width: 100%;
+}
+
+/* footer */
+
+.footer{
+  text-align: center;
+  display: block;
+  background-color: #e6e6e6;
+  width: 900px;
+  height:55px;
+  margin: 0px;
+  padding: 10px;
+
+}
+
+.minorinfo {
+  text-align: center;
+  font-family: "gill sans", avenir, Arial, sans-serif;
+  font-size: 0.75em;
 }
