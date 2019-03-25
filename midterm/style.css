@@ -1,0 +1,51 @@
+#content {
+  min-width: 30px;
+  max-width: 1200px;
+}
+h1 {
+  font-family: georgia, times, serif;
+  font-size: 28px;
+}
+
+h3 {
+  font-family: georgia, times, serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#attribution {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+
+}
+
+p {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+
+h4 {
+  font-family: georgia, times, serif;
+  font-size: 14px;
+}
+
+.images {
+    max-width: 1200px;
+    min-width: 250px;
+    max-height: 400px;
+    min-height: 100px;
+    display: block;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption {
+  text-align: center;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 10px;
+}
