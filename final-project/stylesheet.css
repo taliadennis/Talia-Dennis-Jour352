@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+
+}
+
+p {
+  font-size: 1em;
+  font-family: Georgia, times, serif;
+  line-height: 180%;
+}
