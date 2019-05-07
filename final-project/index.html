@@ -8,6 +8,9 @@
     <meta name="description" content="Description of website goes here">
     <meta name="author" content="Talia Dennis">
 
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Amiri|Montserrat" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -17,7 +20,7 @@
        <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
 
        <!-- Load our CSS -->
-       <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="stylesheet.css">
 
        <!-- Load d3.js and c3.js -->
        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
@@ -28,79 +31,185 @@
 
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
- <a class="navbar-brand" href="#">Navbar</a>
- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-   <span class="navbar-toggler-icon"></span>
- </button>
+  <!-- Start of Jumbotron -->
+  <div class="jumbotron">
+   <strong><h1 class="header">The fad diet experience</h1></strong>
+  </div>
+  <!-- End of Jumbotron -->
 
- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <a class="navbar-brand">
+   <img src="images/logo.png" class="pyramid"> Nutrition and Diet</a>
+
    <ul class="navbar-nav mr-auto">
-     <li class="nav-item active">
-       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+     <li class="nav-item">
+       <a class="nav-link" href="#nutrition">Nutrition Basics</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="#">Link</a>
-     </li>
-     <li class="nav-item dropdown">
-       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Dropdown
-       </a>
-       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-         <a class="dropdown-item" href="#">Action</a>
-         <a class="dropdown-item" href="#">Another action</a>
-         <div class="dropdown-divider"></div>
-         <a class="dropdown-item" href="#">Something else here</a>
-       </div>
+         <a class="nav-link" href="#fish">Pescaterian</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link disabled" href="#">Disabled</a>
+         <a class="nav-link" href="#paleo">Paleolithic</a>
+     </li>
+     <li class="nav-item">
+           <a class="nav-link" href="#med">Mediterranean</a>
+     </li>
+     <li class="nav-item">
+           <a class="nav-link" href="#reflection">Health</a>
      </li>
    </ul>
-   <form class="form-inline my-2 my-lg-0">
-     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-   </form>
- </div>
+
+
 </nav>
 
 <!-- End Navbar -->
-
+<br>
 <!-- Start Contanier -->
 <div class="container">
+
+  <center><img src="images/juice.jpg" alt="green juice" class="hero-image"></center>
+  <p class="caption"> Juice is a staple in juice cleanses and detoxing in the fad diet world. Photo from Courtney Boyd Myers via Flickr</p>
+
+  <p class="subhead">Are diet trends effective and, more importantly, healthy?</p>
+  <p class="date"> May 13, 2019
+  <p class="byline">By Talia Dennis</p>
+
+  <strong><p class="intro"> The earliest record of a fad diet begins with English poet Lord Byron who introduced the vinegar and water diet in 1820. People jumped on the bandwagon with this diet and others throughout the last two centuries. Each claims to improve health or aid in weight loss. However, there is little medical evidence to back up such statements. This does not mean every fad diet is wrong, but often unnecessary for a healthy individual. The timeline below shows some major fad diets.</p></strong>
+
+
+    <!-- Timeline history of fad diets -->
+
+    <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=13Im6_qTGWX3h1Bn6qyUIz3FPSgaB3gx-BxTy-Fi9Nh8&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='450' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+
+    <br><br><br>
+
+<div class="row">
+
+
+    <p class="chapter-name"> <img src="images/logo.png" class="pyramid" id="nutrition"> Nutritional Basics</p>
+
+    <br>
+
+  <p class="text-info"> There isn’t much California Polytechnic State University junior Nevada Shannahan won’t try — fad diets being one of them. The diets are often met with skepticism and critiques because limitations or restrictions of food groups is usually required to properly follow the guidelines. </p>
+
+  <p class="text-info">From the 1990s to 2009 the U.S. Department of Agriculture used a food pyramid to educated the public about the types and amounts of food an average person should consume in a day to maintain a healthy diet. Since 2011, the USDA has used MyPlate to convey nutritional standards. It is a diagram of a plate and cup and shows how much of each food group should be consumed.</p>
 
 <br><br>
 <!-- Pie Chart amount to each each day -->
 
-<div class="graphic-container">
-  <h2>How much of each food group should we be eating</h2>
-  <p>About half of our diets should consist of fruits and vegetables, based on a 2,000 calorie diet</p>
+  <div class="graphic-container">
+  <center><h2 class="title">How much of each food group should we be eating</h2></center>
+  <center><p class="chart-des">About half of our diets should consist of fruits and vegetables, based on a 2,000 calorie diet</p></center>
   <div id="CalorieDiet"></div>
-  <em>Source: Data from ChooseMyPlate.gov</em>
-</div>
+  <em class="source">Source: Data from ChooseMyPlate.gov</em>
+  </div>
 
 <!-- END Pie Chart-->
-
 <br><br>
 
-<!-- Bar Graph on diet types -->
-
-<div class="graphic-container">
-  <h2>Which diet is most followed?</h2>
-  <p>The International Food Information Council Foundation's 13th annual survey found that out of 36 percent of Americans involved in the survey who noted a specific eating pattern ot diet they followed in 2017, intermittent fasting was the most popular at 10 percent. </p>
-  <div id="Dietsfollowed"></div>
-  <em>Source: Data collected by International Food Information Council</em>
+  <p class="text-info"> The current diet makeup recommendation, based on a 2,000 calorie diet – a standard most food labels also go by – is 28 percent for vegetables, 22.5 percent for fruits, 7.9 percent for grains, 7.6 percent for protein, 33.9 percent for dairy and 0.02 percent for a blend of saturated fats and added sugars. </p>
 </div>
 
-<!-- END second graphic container-->
+<div class="row">
 
 
-<!-- Timeline history of fad diets -->
+      <p class="chapter-name"> <img src="images/logo.png" class="pyramid" id="fish"> The Pescatarian Diet </p>
 
-<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=13Im6_qTGWX3h1Bn6qyUIz3FPSgaB3gx-BxTy-Fi9Nh8&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+      <br>
+
+  <p class="text-info">Within the last two and half years, Shannahan has tried three types of diets that vary from the typical food pyramid most people are familiar with when they about nutrition.</p>
+
+  <p class="text-info">“I started the summer after I graduated high school with the pescatarian diet because my girlfriend at the time didn’t eat red meat,” the history major said.</p>
+
+  <p class="text-info">The diet is similar to vegetarianism but meat is acceptable if it is fish.</p>
+
+  <p class="text-info">“I liked it,” Shannahan said. “I didn’t see too many results…But I liked making things for myself.”</p>
 
 </div>
 
+<div class="row">
+
+
+    <p class="chapter-name"> <img src="images/logo.png" class="pyramid" id="paleo"> The Caveman Diet</p>
+
+    <br>
+
+  <p class="text-info">The 21-year-old said the following year he tried the Paleo diet — a diet known to mimic the foods early humans ate during the Paleolithic era. The diet ranges from strict adherence like grass-fed meat or organic products to more leniency that can be more cost efficient for a college student, like Shannahan.</p>
+
+  <p class="text-info">Typically the Paleo diet consists of lean meats, fish, fruits, vegetables, nuts and seeds. From the food pyramid it omits grains, dairy products and refined sugar. Adhering to this diet also means giving up legumes — think beans, lentils, peanuts and peas — refined sugar, highly processed foods, salt and potatoes, according to the Mayo Clinic.</p>
+
+  <p class="text-info">“I’ve never been more fit,” Shannahan said. “I’ve never been able to think more clearly…I saw results immediately”</p>
+
+<p class="text-info">Shannahan said he was inspired to try the diet after hearing a podcaster recommend it.</p>
+
+<p class="text-info">“I wanted to try it out for a week and then a month,” he said. “It ended up being whole summer.”</p>
+
+<p class="text-info">Research on Paleolithic nutrition was first conducted in 1975. It was not until 2002 that the diet was popular. It saw a resurgence in 2014 and has maintained popularity since then.</p>
+
+<p class="text-info"> In 2017 the International Food Information Council Foundation found that among the surveyed Americans who followed a diet that year, the diet was the second-most popular.</p>
+
+  <br><br>
+  <!-- Bar Graph on diet types -->
+
+  <div class="graphic-container">
+    <center><h2 class="title">Which diet is most followed?</h2></center>
+    <center><p class="chart-des">The International Food Information Council Foundation's 13th annual survey found that out of 36 percent of Americans involved in the survey who noted a specific eating pattern or diet they followed in 2017, intermittent fasting was the most popular at 10 percent. </p></center>
+    <div id="Dietsfollowed"></div>
+    <em class="source">Source: Data collected by International Food Information Council</em>
+  </div>
+
+<br><br>
+  <!-- END second graphic container-->
+
+  <p class="text-info">Of the diets he’s tried he said the Paleo diet was his favorite because it had foods he could eat and others that were off limits, while the Mediterranean was his least favorite.</p>
+
+  <p class="text-info">“I prefer diets where things are either allowed or not allowed,” he said. “I have more self-control when can say I can eat that thing or not. There’s no temptation to have it sometimes…I guess it’s kind of like rehab.”</p>
+
+  <p class="text-info">Shannahan said he’d try the Paleo diet again and during the school year because he enjoyed it so much. However, he said he is unable to do that just yet because of the cost. While eating in accordance to the Paleo diet is more expensive, he said the time cost is a bigger factor. Because highly-processed foods are off-limits, food cannot just be pulled from the box or can it came in and cooked in the microwave.</p>
+
+  <p class="text-info">He said he would spend his Sundays making six lunches and dinners for the week. During the school year, he doesn’t have the time necessary to meal-prep because of homework and his job.</p>
+
+  <p class="text-info">“It was not something I had prioritized and I found myself not being able to take on the task,” he said.</p>
+
+</div>
+
+<div class="row">
+
+
+    <p class="chapter-name"> <img src="images/logo.png" class="pyramid" id="med"> The Mediterranean Diet</p>
+
+    <br>
+
+
+<p class="text-info">More recently, Shannahan said he tried the Mediterranean diet with his girlfriend last quarter for about two months. This diet focused on portioning different types of food, rather than omitting them altogether, he said.</p>
+
+<p class="text-info">The diet typically focuses on the consumption of plant-based foods, very little red meat but getting a lot of protein from chicken and fish, and swapping fats like butter for healthy oils.</p>
+
+<p class="text-info">Shannahan said his favorite snack was a piece of toast with mozzarella, olive oil, salt and pepper. On both diets he said he was also able to enjoyed popcorn if it was unsalted and cooked with the right kind of oil.</p>
+
+</div>
+
+<div class="row">
+
+
+    <p class="chapter-name"> <img src="images/logo.png" class="pyramid" id="reflection"> Are fad diets healthy?</p>
+
+    <br>
+
+
+<p class="text-info">While he may not have the time to start the Paleo diet again just yet, Shannahan is interested in trying other diets as well. He named intermittent fasting as being one he was most curious about because Terry Cruz talked about it and made it interesting he said. Shannahan also said he wants to try veganism but does not see it happening any time soon.</p>
+
+</div>
+
+
+</div>
+
+<div class="footer">
+
+<p class="bottom-text">Created by Talia Dennis for Jour352: Interactive Design and Development</p>
+<p class="bottom-text"> Copyright 2019 University of Maryland </p>
+
+</div>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -7,6 +7,162 @@
 
 p {
   font-size: 1em;
-  font-family: Georgia, times, serif;
+  font-family: 'Amiri', times, serif;
   line-height: 180%;
+}
+
+.jumbotron {
+  background-image: url(images/veggies.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1400px;
+  min-width: 300px;
+  opacity: .87;
+  margin-bottom:0;
+}
+.header {
+  font-size: 3.5em;
+  font-family: 'Montserrat', helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 0px;
+  display: block;
+  /*background-color: rgba(67, 72, 7, 0.2);*/
+  color: #f1f2e5;
+  margin-bottom:0;
+
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 300px;
+  }
+
+.caption {
+   width:100%;
+   max-width:500px;
+   margin:0 auto;
+   padding-bottom:30px;
+   font-family: 'Montserrat', sans-serif;
+   color:#999;
+   font-size: 1em;
+  }
+
+.subhead {
+  font-size: 2em;
+  font-family: 'Montserrat', helvetica, sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.date {
+  font-size: 1em;
+  font-family: 'Montserrat', helvetica, sans-serif;
+  text-align: center;
+  color: black;
+}
+.byline {
+  font-size: 1em;
+  font-family: 'Amiri', times, serif;
+  text-align: center;
+  color: black;
+}
+
+.pyramid {
+  width: 30px;
+  margin-left: 5px;
+}
+
+.navbar {
+  background-color: #e5e6e1 !important;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', helvetica, sans-serif;
+  margin: 0 auto;
+  color: white;
+
+}
+
+ul.navbar-nav {
+  font-family: 'Montserrat', helvetica, sans-serif;
+  margin-left: 30%;
+}
+
+.intro {
+    font-family: 'Montserrat', helvetica, sans-serif;'
+    font-size: 1em;
+    max-width: 800px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 12%;
+
+}
+
+.text-info {
+  font-family: 'Amiri', times, serif;
+  font-size: 1.15em;
+  color: black !important;
+}
+
+.title {
+    font-family: 'Montserrat', helvetica, sans-serif;
+}
+
+.chapter-name {
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding-top: 20px;
+  width: 100%;
+
+}
+.chart-des{
+  font-family: 'Amiri', times, serif;
+}
+
+.graphic-container {
+  border-top:1px solid #cdcdcd;
+  border-bottom:1px solid #cdcdcd;
+  padding-top:30px;
+  padding-bottom:30px;
+  margin:0 auto;
+  height: 100%;
+}
+
+.source {
+  font-family: 'Amiri', times, serif;
+  font-size: .75em;
+}
+.footer {
+  display: block;
+  background: #e5e6e1;
+  height: 100px;
+  padding: 25px;
+}
+
+.bottom-text {
+  color: black;
+  font-family: 'Montserrat', arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: #b36b2c;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0f7221;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #999;
 }
