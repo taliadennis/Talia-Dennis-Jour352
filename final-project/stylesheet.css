@@ -42,12 +42,12 @@ p {
 
 .caption {
    width:100%;
-   max-width:500px;
+   max-width:300px;
    margin:0 auto;
    padding-bottom:30px;
    font-family: 'Montserrat', sans-serif;
    color:#999;
-   font-size: 1em;
+   font-size: .8em;
   }
 
 .subhead {
@@ -59,7 +59,7 @@ p {
 
 .date {
   font-size: 1em;
-  font-family: 'Montserrat', helvetica, sans-serif;
+  font-family: 'Amiri', helvetica, sans-serif;
   text-align: center;
   color: black;
 }
@@ -147,7 +147,7 @@ ul.navbar-nav {
 .bottom-text {
   color: black;
   font-family: 'Montserrat', arial, sans-serif;
-  font-size: 1em;
+  font-size: .75em;
   font-weight: 300;
   text-align: center;
 }
