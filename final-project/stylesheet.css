@@ -40,6 +40,23 @@ p {
     max-width: 300px;
   }
 
+.story-pic {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    padding-bottom: 5px;
+    display: block;
+
+}
+
+.in-photo {
+    width: 100%;
+    max-width: 300px;
+    height: 80%;
+    display: block;
+    margin-left: 250px;
+}
+
 .caption {
    width:100%;
    max-width:300px;
@@ -49,6 +66,33 @@ p {
    color:#999;
    font-size: .8em;
   }
+
+  .caption-story {
+     width:100%;
+     max-width:400px;
+     font-family: 'Montserrat', sans-serif;
+     color:#999;
+     font-size: .8em;
+     display: block;
+     margin:0 auto;
+     padding-bottom:30px;
+    }
+
+figure {
+  align-content: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+figcaption {
+  width:100%;
+  max-width: 400px;
+  min-width: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color:#999;
+  font-size: .8em;
+  display: block;
+}
 
 .subhead {
   font-size: 2em;
@@ -137,6 +181,21 @@ ul.navbar-nav {
   font-family: 'Amiri', times, serif;
   font-size: .75em;
 }
+
+blockquote {
+  font-size: 18px;
+  font-family: 'Montserrat', helvetica, sans-serif;
+  text-align: center;
+  display: block;
+  margin:0 auto;
+  width: 60%;
+  color: #4b4f1d;
+  background-color: #e5e6e1;
+  padding: 25px;
+  float: left;
+
+}
+
 .footer {
   display: block;
   background: #e5e6e1;
@@ -153,16 +212,16 @@ ul.navbar-nav {
 }
 
 a:link {
-  text-decoration: none;
   color: #b36b2c;
+  text-decoration: none;
 }
 
-a:hover {
-  text-decoration: none;
+a:hover{
   color: #0f7221;
+  text-decoration: none;
 }
 
 a:visited {
+  color:#999;
   text-decoration: none;
-  color: #999;
 }
